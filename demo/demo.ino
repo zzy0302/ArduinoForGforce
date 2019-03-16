@@ -130,8 +130,7 @@ void setup() {
     delay(5);
   }
   analogWrite(4,1);
-  test_everyone();
-  test_number();
+  
   Serial.println("test complete");
   for (i = 0; i < 53; i++)
   {
